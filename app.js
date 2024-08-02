@@ -4,7 +4,7 @@ const methodOverride = require('method-override');
 const expressLayouts = require('express-ejs-layouts');
 const userRoutes = require('./routes/userRoutes');
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 4000;
 
 app.set('view engine', 'ejs');
 app.set('views', __dirname + '/views');
